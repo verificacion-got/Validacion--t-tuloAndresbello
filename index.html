@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificación de Certificado - UNAB</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #555;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            background-color: #fff;
+        }
+
+        .header-logo {
+            padding: 90px 95px;
+        }
+
+        .header-logo img {
+            height: 80px; 
+        }
+
+        .header-btn {
+            background-color: #b71c1c; /* Rojo UNAB */
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            font-size: 14px;
+            text-align: center;
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        /* Contenido Principal */
+        .container {
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+            margin-bottom: 40px; 
+        }
+
+        .intro-text {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 22px;
+            color: #666;
+            margin-bottom: 10px;
+            font-weight: normal;
+        }
+
+        .alert-text {
+            color: #9e1b32; /* Rojo oscuro */
+            font-size: 20px;
+            font-weight: normal;
+            line-height: 1.3;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .section-title {
+            color: #9e1b32;
+            font-size: 20px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        /* Datos */
+        .data-group {
+            margin-bottom: 15px;
+        }
+
+        .data-label {
+            font-weight: bold;
+            color: #444;
+            display: block;
+            margin-bottom: 3px;
+        }
+
+        .data-value {
+            color: #666;
+            font-size: 16px;
+        }
+
+        /* Botón Descarga PDF */
+        .download-box {
+            margin-top: 20px;
+        }
+        
+        .pdf-btn {
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 5px;
+            text-align: center;
+            text-decoration: none;
+            color: #b71c1c;
+            font-weight: bold;
+            font-size: 12px;
+            background: #f9f9f9;
+        }
+
+        .pdf-btn img {
+            display: block;
+            width: 40px;
+            margin: 0 auto 5px auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-logo">
+            <img src="logo.jpg" alt="Instituto Profesional AIEP">
+        </div>
+        <a href="#" class="header-btn">
+            Certificados<br>en línea
+        </a>
+    </header>
+
+    <div class="container">
+        <p class="intro-text">A continuación se muestra la información del certificado consultado.</p>
+
+        <h2>Verificación Certificado</h2>
+
+        <div class="alert-text">
+            SÓLO PARA TITULADOS -<br>
+            Certificados de Títulos<br>
+            - SÓLO PARA<br>
+            TITULADOS: COPIA<br>
+            DE TÍTULO DEL AÑO<br>
+            2015 O ANTERIOR
+        </div>
+
+        <h3 class="section-title">Estado del certificado</h3>
+
+        <div class="data-group">
+            <span class="data-label">Fecha Obtención del Titulo:</span>
+            <span class="data-value">17/01/2012</span>
+        </div>
+
+        <div class="data-group">
+            <span class="data-label">Válido Hasta:</span>
+            <span class="data-value">No Caduca</span>
+        </div>
+
+        <h3 class="section-title">Datos del certificado</h3>
+        <p class="intro-text" style="margin-bottom: 20px;">A continuación se muestran información del certificado.</p>
+
+        <div class="data-group">
+            <span class="data-label">Rut:</span>
+            <span class="data-value">13.991.886-k</span>
+        </div>
+
+        <div class="data-group">
+            <span class="data-label">Apellidos:</span>
+            <span class="data-value">MARCIEL GUAJARDO</span>
+        </div>
+
+        <div class="data-group">
+            <span class="data-label">Nombre:</span>
+            <span class="data-value">PABLO ESTEBAN</span>
+        </div>
+
+        <div class="data-group">
+            <span class="data-label">Carrera:</span>
+            <span class="data-value">INGENIERÍA EN CONSTRUCCIÓN CIVIL</span>
+        </div>
+
+        <div class="data-group">
+            <span class="data-label">Sede:</span>
+            <span class="data-value">REPÚBLICA</span>
+        </div>
+
+        <div class="data-group">
+            <span class="data-label">Modalidad:</span>
+            <span class="data-value">DIURNA</span>
+        </div>
+
+        <div class="data-group">
+            <span class="data-label">Fecha de Egreso:</span>
+            <span class="data-value">18 DE DICIEMBRE 2011</span>
+        </div>
+
+        <h3 class="section-title">Descarga Certificado</h3>
+        <p class="intro-text">Descarga de certificado en formato PDF.</p>
+
+        <div class="download-box">
+            <a href="lara.pdf" class="pdf-btn" download>
+                <img src="pdf_icon_placeholder.png" alt="PDF">
+                Descargar
+            </a>
+        </div>
+    </div>
+    
+</body>
+</html>
